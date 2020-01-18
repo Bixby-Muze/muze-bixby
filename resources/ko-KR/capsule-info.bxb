@@ -1,8 +1,20 @@
 capsule-info {
-  display-name (__DISPLAY_NAME__)
-  developer-name (__COMPANY_NAME__)
-  icon-asset (icon.png)
-  description ("__DESCRIPTION__")
-  website-url (https://example.com/)
-  terms-url (https://example.com/terms-of-use/)
+  display-name (뮤즈)
+  dispatch-name (뮤즈)
+  dispatch-aliases {
+    alias (뮤지)
+    alias (무즈)
+  }
+  developer-name (KWS)
+  search-keywords {
+    keyword (영화)
+    keyword (영상)
+    keyword (무비)
+    keyword (컨텐츠)
+    keyword (콘텐츠)
+  }
+  icon-asset (images/logo.png)
+  description (다양한 영화를 검색하거나 추천하고 정보를 제공받는 기능을 제공합니다.)
+  website-url (https://github.com/Bixby-Muze/)
+  terms-url (hhttps://github.com/Bixby-Muze/)
 }

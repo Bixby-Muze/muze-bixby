@@ -1,5 +1,7 @@
 hints {
   uncategorized {
-    hint (__UTTERANCE__)
+    hint ("뮤즈에서 영화 추천해줄래")
+    hint ("뮤즈에서 영화 추천해줄래")
+    hint ("뮤즈에서 영화 추천해줄래")
   }
 }
