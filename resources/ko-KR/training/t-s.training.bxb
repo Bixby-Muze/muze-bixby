@@ -1,0 +1,5 @@
+train (t-slz2hpfw0tddr0s0ehelfmhox) {
+  utterance ([g:SearchResultConcept] 영화 보여줘ㅓ)
+  plan (Y2BkUC7ISaxML8ovzUvRyy2tStULTk0sSs4ISi0uzSlxzs9LTi0oYQABRhABAA==)
+  last-modified (1579330207960)
+}
