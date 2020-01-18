@@ -1,8 +1,0 @@
-structure (SearchResultConcept) {
-  description (The result object from movie search.)
-  property (MovieTitle) {
-    type (MovieTitleConcept)
-    min (Required)
-    max (One)
-  }
-}

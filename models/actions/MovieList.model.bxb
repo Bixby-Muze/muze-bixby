@@ -1,0 +1,12 @@
+action (MovieList) {
+  type (Search)
+  collect{
+    input (movieTitle) {
+      type (MovieTitle)
+      min (Optional)
+      max (One)
+    }
+  }
+  output (SearchResult)
+  
+}
