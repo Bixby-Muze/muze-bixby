@@ -1,13 +1,17 @@
 capsule {
-  id (kys.muze)
-  version (0.1.0)
-  format (3)
-  targets {
-    target (bixby-mobile-en-US)
-  }
-  runtime-flags {
-    concepts-inherit-super-type-features
-    modern-prompt-rejection
-    support-halt-effect-in-computed-inputs
-  }
+	id (kys.muze)
+	version (0.1.0)
+	format (3)
+	targets {
+		target (bixby-mobile-ko-KR)
+	}
+	store-countries {
+		only {
+			allow(KR)
+		}
+	}
+	store-sections {
+		section (MoviesAndTV)
+	}
+	runtime-version (2) { }
 }
