@@ -2,7 +2,7 @@ const endpoint = require('./endpoint');
 const apiUrl = endpoint.base + endpoint.list;
 
 function hello(keyword) {
-  return ['keyword', 'hello world', 'hello world2'];
+  return keyword + "??";
 }
 
 module.exports.function = hello;
