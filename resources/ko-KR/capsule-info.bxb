@@ -13,7 +13,7 @@ capsule-info {
     keyword (컨텐츠)
     keyword (콘텐츠)
   }
-  icon-asset (images/logo.png)
+  // icon-asset (images/logo.png)
   description (다양한 영화를 검색하거나 추천하고 정보를 제공받는 기능을 제공합니다.)
   website-url (https://github.com/Bixby-Muze/)
   terms-url (hhttps://github.com/Bixby-Muze/)

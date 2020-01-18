@@ -2,7 +2,7 @@ endpoints {
   action-endpoints {
     action-endpoint (List) {
       accepted-inputs (MovieTitle)
-      local-endpoint ("api/index.js")
+      local-endpoint ("api/list.js")
     }
   }
 }

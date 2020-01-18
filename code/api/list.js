@@ -1,8 +1,8 @@
-const endpoint = require('./endpoint.json');
-const apiUrl = `${endpoint.base}${endpoint.list}`;
+const endpoint = require('./endpoint');
+const apiUrl = endpoint.base + endpoint.list;
 
-const hello = (keyword) => {
-  return ['keyword', 'hello world', 'hello world2'];-
+function hello(keyword) {
+  return ['keyword', 'hello world', 'hello world2'];
 }
 
-export default hello;
+module.exports.function = hello;
