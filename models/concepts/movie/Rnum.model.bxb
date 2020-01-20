@@ -1,0 +1,3 @@
+integer (Rnum) {
+  description (순번)
+}

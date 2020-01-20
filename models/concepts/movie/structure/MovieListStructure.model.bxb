@@ -1,0 +1,63 @@
+structure (MovieListStructure) {
+  description (MovieList 구조체)
+  property (movieCd) {
+    type (MovieCd)
+    min (Required) max (One)
+  }
+
+  property (movieNm) {
+    type (MovieNm)
+    min (Required) max (One)
+  }
+
+  property (movieNmEn) {
+    type (MovieNmEn)
+    min (Optional) max (One)
+  }
+
+  property (prdtYear) {
+    type (PrdtYear)
+    min (Optional) max (One)
+  }
+
+  property (openDt) {
+    type (OpenDt)
+    min (Optional) max (One)
+  }
+
+  property (typeNm) {
+    type (TypeNm)
+    min (Optional) max (One)
+  }
+
+  property (prdtStatNm) {
+    type (PrdtStatNm)
+    min (Optional) max (One)
+  }
+
+  property (nationAlt) {
+    type (NationAlt)
+    min (Optional) max (One)
+  }
+
+  property (genreAlt) {
+    type (GenreAlt)
+    min (Optional) max (One)
+  }
+
+  property (repNationNm) {
+    type (RepNationNm)
+    min (Optional) max (One)
+  }
+
+  property (repGenreNm) {
+    type (RepGenreNm)
+    min (Optional) max (One)
+  }
+
+  property (peopleNm) {
+    type (PeopleNm)
+    min (Optional) max (One)
+  }
+
+}
