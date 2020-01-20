@@ -1,8 +1,0 @@
-structure (SearchResult) {
-  description (The result object from movie search.)
-  property (movieNm) {
-    type (MovieTitle)
-    min (Optional)
-    max (Many)
-  }
-}
