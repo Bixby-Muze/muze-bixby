@@ -11,5 +11,9 @@ endpoints {
     action-endpoint (WeeklyBoxOffice) {
       local-endpoint (movie/WeeklyBoxOffice.js)
     }
+
+    action-endpoint (PeopleList) {
+      local-endpoint (movie/PeopleList.js)
+    }
   }
 }

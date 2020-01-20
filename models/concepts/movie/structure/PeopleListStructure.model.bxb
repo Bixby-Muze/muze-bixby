@@ -1,0 +1,27 @@
+structure (PeopleListStructure) {
+  description (__DESCRIPTION__)
+  property (peopleCd) {
+    type (PeopleCd)
+    min (Optional) max (One)
+  }
+
+  property (peopleNm) {
+    type (PeopleNm)
+    min (Optional) max (One)
+  }
+
+  property (peopleNmEn) {
+    type (PeopleNmEn)
+    min (Optional) max (One)
+  }
+
+  property (repRoleNm) {
+    type (RepRoleNm)
+    min (Optional) max (One)
+  }
+
+  property (filmoNames) {
+    type (FilmoNames)
+    min (Optional) max (One)
+  }
+}
