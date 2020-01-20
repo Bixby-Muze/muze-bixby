@@ -2,12 +2,12 @@ structure (MovieListStructure) {
   description (MovieList 구조체)
   property (movieCd) {
     type (MovieCd)
-    min (Required) max (One)
+    min (Optional) max (One)
   }
 
   property (movieNm) {
     type (MovieNm)
-    min (Required) max (One)
+    min (Optional) max (One)
   }
 
   property (movieNmEn) {
