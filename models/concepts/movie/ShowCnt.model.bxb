@@ -1,0 +1,3 @@
+integer (ShowCnt) {
+  description (해당일자에 상영된 횟수)
+}

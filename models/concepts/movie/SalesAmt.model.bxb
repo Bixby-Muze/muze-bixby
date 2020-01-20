@@ -1,0 +1,3 @@
+text (SalesAmt) {
+  description (해당일의 매출액)
+}

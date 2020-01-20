@@ -1,8 +1,7 @@
 endpoints {
   action-endpoints {
     action-endpoint (MovieList) {
-      accepted-inputs (movieTitle)
-      local-endpoint (test/MovieListTest.js)
+      local-endpoint (movie/MovieList.js)
     }
   }
 }

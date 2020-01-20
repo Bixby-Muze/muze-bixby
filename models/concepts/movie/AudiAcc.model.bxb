@@ -1,0 +1,3 @@
+integer (AudiAcc) {
+  description (누적관객수)
+}

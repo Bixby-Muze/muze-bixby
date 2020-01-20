@@ -1,0 +1,3 @@
+integer (RankInten) {
+  description (전일대비 순위의 증감분)
+}

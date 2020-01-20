@@ -1,0 +1,3 @@
+text (RankOldAndNew) {
+  description (랭킹에 신규진입여부를 출력합니다.“OLD” : 기존 , “NEW” : 신규)
+}

@@ -1,0 +1,3 @@
+integer (AudiCnt) {
+  description (해당일의 관객수)
+}

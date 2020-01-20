@@ -1,0 +1,3 @@
+text (ScrnCnt) {
+  description (해당일자에 상영한 스크린수)
+}
