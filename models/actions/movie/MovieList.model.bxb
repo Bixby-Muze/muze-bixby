@@ -1,11 +1,26 @@
 action (MovieList) {
   type(Search)
   description (__DESCRIPTION__)
-  // collect {
-  //   input (__INPUT_NAME__) {
-  //     type (__INPUT_TYPE__)
-  //     min (Optional) max (One)
-  //   }
-  // }
+  collect {
+    input (_movieNm) {
+      type (MovieNm)
+      min (Optional) max (One)
+    }
+    
+    input (_directorNm) {
+      type (DirectorNm)
+      min (Optional) max (One)
+    }
+
+    input (_openStartDt) {
+      type (OpenStartDt)
+      min (Optional) max (One)
+    }
+
+    input (_openEndDt) {
+      type (OpenEndDt)
+      min (Optional) max (One)
+    }
+  }
   output (MovieListStructure)
 }

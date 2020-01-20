@@ -2,15 +2,15 @@ var http = require('http');
 var config = require('config');
 var console = require('console');
 
-module.exports.function = function movieList () {
+module.exports.function = function movieList (_movieNm, _directorNm, _openStartDt, _openEndDt) {
   
   var options = {
     format: 'json',
     query: {
       movieNm: "",
-      directorNm: "",
-      openStartDt: "2019",
-      openEndDt: "2019"
+      directorNm: _directorNm,
+      openStartDt: "",
+      openEndDt: ""
     }
   };
 

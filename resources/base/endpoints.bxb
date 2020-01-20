@@ -3,5 +3,9 @@ endpoints {
     action-endpoint (MovieList) {
       local-endpoint (movie/MovieList.js)
     }
+
+    action-endpoint (DailyBoxOffice) {
+      local-endpoint (movie/DailyBoxOffice.js)
+    }
   }
 }
