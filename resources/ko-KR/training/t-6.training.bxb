@@ -1,0 +1,5 @@
+train (t-6pf5tc0ebzbnqio2y4i5w578k) {
+  utterance ("[g:MoviesStructure] 오늘 (박스오피스)[v:MuzeMovieType] 보여줘")
+  plan (Y2BmkMiuLNbLLa1K1fPNL8tMLQ4uKSpNLiktSmUQh8u4JGbmVDrlV/inpWUmpzKIIbQACbC2kMqCVAYmBkYgZgCSjAwgwATBAA==)
+  last-modified (1579595878370)
+}
