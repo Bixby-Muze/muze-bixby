@@ -1,4 +1,5 @@
 train (t-1v6tyc840bc9kgrdyrqm35xf7) {
-  utterance (영화인 리스트)
-  last-modified (1579548909803)
+  utterance ([g:PeopleListStructure] 영화인 리스트)
+  plan (Y2BkkMmuLNbLLa1K1QtIzS/ISfXJLC4JLikqTS4pLUplAAFGEAEA)
+  last-modified (1579568074885)
 }

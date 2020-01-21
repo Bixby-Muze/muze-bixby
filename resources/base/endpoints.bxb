@@ -15,5 +15,9 @@ endpoints {
     action-endpoint (PeopleList) {
       local-endpoint (movie/PeopleList.js)
     }
+
+    action-endpoint (MovieDetail) {
+      local-endpoint (movie/MovieDetail.js)
+    }
   }
 }
