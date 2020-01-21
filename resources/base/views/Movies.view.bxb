@@ -16,7 +16,7 @@ result-view {
     else-if (size(movies) == 1) {
       layout-macro (movie-details) {
         param (movie) {
-          expressoin (movies)
+          expression (movies)
         }
       }
     }

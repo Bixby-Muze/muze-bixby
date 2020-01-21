@@ -1,34 +1,66 @@
-layout-macro-def (movie-details){
-  params{
-    param (movie){
+layout-macro-def (movie-details) {
+  params {
+    param (movie) {
       type (MoviesStructure)
       min (Required)
       max (One)
     }
   }
 
-  content{
-    section{
-      content{
-        // the pet's image\
-        image{
+  content {
+    section {
+      content {
+        image {
           aspect-ratio(4:3)
           url("https://images.unsplash.com/photo-1579515272222-adffa97cb506?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80")
         }
-        // the pet's name and species icon
-        hbox{
-          content{
-            vbox{
-              content{
-                text{
-                  value ("#{value(movie.movieNm)}")
-                  style (Title_S)
-                }
-              }
-            }
+
+        paragraph {
+          value ("#{value(movie.movieNm)}")
+          style (Title_M)
+        }
+
+        spacer
+
+        single-line {
+          text {
+            value ("영화 정보")
+            style (Detail_L_Soft)
           }
         }
-        divider
+        single-line {
+          text {
+            value ("장르")
+            style (Detail_L_Soft)
+          }
+          spacer
+          text {
+            value ("#{value(movie.genreAlt)}")
+            style (Detail_L)
+          }
+        }
+        single-line {
+          text {
+            value ("개봉")
+            style (Detail_L_Soft)
+          }
+          spacer
+          text {
+            value ("#{value(movie.openDt)}")
+            style (Detail_L)
+          }
+        }
+
+        spacer
+
+        single-line {
+          text {
+            value ("출연진 정보")
+            style (Detail_L_Soft)
+          }
+        }
+        
+
       }
     }
   }

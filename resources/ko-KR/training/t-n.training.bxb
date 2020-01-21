@@ -1,0 +1,5 @@
+train (t-ns027x7n5riir4xgdxkxremwe) {
+  utterance ([g:DailyBoxOffice] 박스오피스 영화 보여줘)
+  plan (Y2BikMiuLNbLLa1K1fPNL8tMLQ4uKSpNLiktSmUQh8u4JGbmVDrlV/inpWUmpzIwAiEDFANJAA==)
+  last-modified (1579580277469)
+}
