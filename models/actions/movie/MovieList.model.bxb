@@ -21,6 +21,6 @@ action (MovieList) {
       type (OpenEndDt)
       min (Optional) max (One)
     }
-  }
+
   output (MoviesStructure)
-}
+  }
