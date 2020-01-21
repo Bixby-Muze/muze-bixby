@@ -29,7 +29,6 @@ layout-macro-def (movie-summary){
           }
           style (Detail_L)
         }
-
       }
     }
   }

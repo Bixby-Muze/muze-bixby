@@ -1,10 +1,10 @@
 action (MovieDetail) {
-  description (__DESCRIPTION__)
-  // collect {
-  //   input (__INPUT_NAME__) {
-  //     type (__INPUT_TYPE__)
-  //     min (Optional) max (One)
-  //   }
-  // }
+  description (영화의 상세 정보를 조회하는 action.)
+  collect {
+    input (_movieCd) {
+      type (MovieCd)
+      min (Required) max (One)
+    }
+  }
   output (MovieDetailStructure)
  }
