@@ -1,0 +1,72 @@
+structure (MovieDetailStructure) {
+  description (__DESCRIPTION__)
+  property (movieCd) {
+    type (MovieCd)
+    min (Optional) max (One)
+  }
+
+  property (movieNm) {
+    type (MovieNm)
+    min (Optional) max (One)
+  }
+
+  property (movieNmEn) {
+    type (MovieNmEn)
+    min (Optional) max (One)
+  }
+
+  property (movieNmOg) {
+    type (MovieNmOg)
+    min (Optional) max (One)
+  }
+
+  property (showTm) {
+    type (ShowTm)
+    min (Optional) max (One)
+  }
+
+  property (prdtYear) {
+    type (PrdtYear)
+    min (Optional) max (One)
+  }
+
+  property (openDt) {
+    type (OpenDt)
+    min (Optional) max (One)
+  }
+
+  property (prdtStatNm) {
+    type (PrdtStatNm)
+    min (Optional) max (One)
+  }
+
+  property (typeNm) {
+    type (TypeNm)
+    min (Optional) max (One)
+  }
+
+  property (nationNm) {
+    type (NationNm)
+    min (Optional) max (Many)
+  }
+
+  property (genreNm) {
+    type (GenreNm)
+    min (Optional) max (Many)
+  }
+
+  property (peopleNm) {
+    type (PeopleNm)
+    min (Optional) max (Many)
+  }
+
+  property (peopleNmEn) {
+    type (PeopleNmEn)
+    min (Optional) max (Many)
+  }
+
+  // property (showTypeGroupNm) {
+  //   type (ShowTypeGroupNm)
+  //   min (Optional) max (Many)
+  // }
+}

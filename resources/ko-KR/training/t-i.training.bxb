@@ -1,4 +1,5 @@
 train (t-igiafq4713su3chsidwhz7u5i) {
-  utterance (테스트 영화)
-  last-modified (1579538746993)
+  utterance ([g:MovieListStructure] 테스트 영화)
+  plan (Y2BkkM6uLNbLLa1K1fPNL8tM9cksLgkuKSpNLiktSmUAAUYQAQA=)
+  last-modified (1579568450113)
 }
