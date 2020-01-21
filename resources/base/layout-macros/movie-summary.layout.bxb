@@ -1,0 +1,18 @@
+layout-macro-def (movie-summary){
+  params{
+    param (movie){
+      type (MoviesStructure)
+      min (Required)
+      max (One)
+    }
+  }
+  
+  content{
+    image {
+      url ("https://images.unsplash.com/photo-1579515272222-adffa97cb506?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80")
+      aspect-ratio (3:4)
+      object-fit (Cover)
+      object-position (Center)
+    }
+  }
+}

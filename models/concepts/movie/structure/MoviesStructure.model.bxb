@@ -1,5 +1,5 @@
-structure (DailyBoxOfficeStructure) {
-  description (__DESCRIPTION__)
+structure (MoviesStructure) {
+  description (영화 목록 Structure 입니다.)
   property (rNum) {
     type (Rnum)
     min (Optional) max (One)
@@ -30,9 +30,29 @@ structure (DailyBoxOfficeStructure) {
     min (Optional) max (One)
   }
 
+  property (movieNmEn) {
+    type (MovieNmEn)
+    min (Optional) max (One)
+  }
+
+  property (prdtYear) {
+    type (PrdtYear)
+    min (Optional) max (One)
+  }
+
+  property (prdtStatNm) {
+    type (PrdtStatNm)
+    min (Optional) max (One)
+  }
+
   property (openDt) {
     type (OpenDt)
     min(Optional) max (One)
+  }
+
+  property (typeNm) {
+    type (TypeNm)
+    min (Optional) max (One)
   }
 
   property (salesAmt) {
@@ -89,4 +109,30 @@ structure (DailyBoxOfficeStructure) {
     type (ShowCnt)
     min (Optional) max (One)
   }
+
+  property (nationAlt) {
+    type (NationAlt)
+    min (Optional) max (One)
+  }
+
+  property (genreAlt) {
+    type (GenreAlt)
+    min (Optional) max (One)
+  }
+
+  property (repNationNm) {
+    type (RepNationNm)
+    min (Optional) max (One)
+  }
+
+  property (repGenreNm) {
+    type (RepGenreNm)
+    min (Optional) max (One)
+  }
+
+  property (peopleNm) {
+    type (PeopleNm)
+    min (Optional) max (One)
+  }
+
 }

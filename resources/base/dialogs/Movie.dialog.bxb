@@ -1,0 +1,17 @@
+dialog (Result) {
+  match: MoviesStructure(movies){
+    from-output: WeeklyBoxOffice(action)
+  }
+  
+  if(size(movies) > 1){
+    choose (Random){
+      template ("현재 상영 중인 영화들입니다.")
+    }
+  } else {
+    choose (Random){
+      template ("자세한 영화 정보입니다."){
+        speech ("자세한 영화 정보예요.")
+      }
+    }
+  }
+}
