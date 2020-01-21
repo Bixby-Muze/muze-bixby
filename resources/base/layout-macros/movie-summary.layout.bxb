@@ -12,7 +12,7 @@ layout-macro-def (movie-summary){
       content {
         image-card {
           aspect-ratio (3:4)
-          image-url ("https://cdn.shopify.com/s/files/1/0904/4536/products/white-lacquer-wood-sample-base-3.jpg")
+          image-url ("#{value(movie.imgUrl)}")
           title-area {
             slot1 {
               text {

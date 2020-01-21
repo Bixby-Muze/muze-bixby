@@ -13,7 +13,7 @@ layout-macro-def (movie-details) {
         // 영화 포스터 사진
         image {
           aspect-ratio(4:3)
-          url("https://images.unsplash.com/photo-1579515272222-adffa97cb506?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80")
+          url("#{value(movie.imgUrl)}")
         }
 
         // 영화 제목
