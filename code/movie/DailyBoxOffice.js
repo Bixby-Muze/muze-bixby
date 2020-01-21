@@ -1,11 +1,23 @@
+var http = require('http');
+var config = require('config');
 var console = require('console');
 var tool = require('lib/tool.js');
 
 module.exports.function = function dailyBoxOffice () {
 
-  var resData = require("../data/DailyBoxOfficeData.js");  
+  var options = {
+    format: 'json',
+    headers: {
+      'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJvb2V1bnoiLCJVU0VSTkFNRSI6Im9vZXVueiIsIkVNQUlMIjoieXVuczk5NEBnbWFpbC5jb20iLCJVU0VSX1JPTEUiOiJST0xFX1VTRVIifQ.Ibvyggk8HMcgY-hiChQNb5TzOGcKH8KKAJAgx-Fto7s'
+    },
+    query: {
+      targetDt: '20200101'
+    }
+  };
 
-  let resultData = resData.boxOfficeResult.dailyBoxOfficeList;
+  var resData = http.getUrl(config.get("apiBaseUrl")+"dailyBoxOffice", options);
+
+  let resultData = resData.data.boxOfficeResult.dailyBoxOfficeList;
 
   for(let i = 0; i < resultData.length; i++){
     let movieCd = resultData[i].movieCd

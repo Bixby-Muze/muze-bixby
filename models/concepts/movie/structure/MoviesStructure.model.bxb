@@ -175,4 +175,8 @@ structure (MoviesStructure) {
     min (Optional) max (One)
   }
 
+  property (imgUrl) {
+    type (ImgUrl)
+    min (Optional)
+  }
 }
