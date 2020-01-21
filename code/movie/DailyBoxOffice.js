@@ -13,7 +13,7 @@ module.exports.function = function dailyBoxOffice () {
 
     resultData[i].showTm = movieDetail.movieInfoResult.movieInfo.showTm;
     resultData[i].nations = movieDetail.movieInfoResult.movieInfo.nations;
-    resultData[i].genres = movieDetail.movieInfoResult.movieInfo.geners;
+    resultData[i].genres = movieDetail.movieInfoResult.movieInfo.genres;
     resultData[i].directors = movieDetail.movieInfoResult.movieInfo.directors;
     resultData[i].actors = movieDetail.movieInfoResult.movieInfo.actors;
     resultData[i].showTypes = movieDetail.movieInfoResult.movieInfo.showTypes;
