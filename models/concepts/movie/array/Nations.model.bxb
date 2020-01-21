@@ -1,0 +1,7 @@
+structure (Nations) {
+  description (__DESCRIPTION__)
+  property (nationNm) {
+    type (NationNm)
+    min (Optional) max (One)
+  }
+}

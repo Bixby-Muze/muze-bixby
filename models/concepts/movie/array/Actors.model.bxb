@@ -1,0 +1,22 @@
+structure (Actors) {
+  description (__DESCRIPTION__)
+  property (peopleNm) {
+    type (PeopleNm)
+    min (Optional) max (One)
+  }
+
+  property (peopleNmEn) {
+    type (PeopleNmEn)
+    min (Optional) max (One)
+  }
+
+  property (cast) {
+    type (Cast)
+    min (Optional) max (One)
+  }
+
+  property (castEn) {
+    type (CastEn)
+    min (Optional) max (One)
+  }
+}

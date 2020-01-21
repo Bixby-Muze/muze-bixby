@@ -1,6 +1,6 @@
 structure (MoviesStructure) {
   description (영화 목록 Structure 입니다.)
-  property (rNum) {
+  property (rnum) {
     type (Rnum)
     min (Optional) max (One)
   }
@@ -108,6 +108,36 @@ structure (MoviesStructure) {
   property (showCnt) {
     type (ShowCnt)
     min (Optional) max (One)
+  }
+
+  property (showTm) {
+    type (ShowTm)
+    min (Optional) max (One)
+  }
+
+  property (nations) {
+    type (Nations)
+    min (Optional) max (Many)
+  }
+
+  property (directors) {
+    type (Directors)
+    min (Optional) max (Many)
+  }
+
+  property (actors) {
+    type (Actors)
+    min (Optional) max (Many)
+  }
+
+  property (showTypes) {
+    type (ShowTypes)
+    min (Optional) max (Many)
+  }
+
+  property (audits) {
+    type (Audits)
+    min (Optional) max (Many)
   }
 
   property (nationAlt) {

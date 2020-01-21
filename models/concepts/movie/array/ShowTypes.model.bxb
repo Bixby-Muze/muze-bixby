@@ -1,0 +1,12 @@
+structure (ShowTypes) {
+  description (__DESCRIPTION__)
+  property (showTypeGroupNm) {
+    type (ShowTypeGroupNm)
+    min (Optional) max (One)
+  }
+  
+  property (showTypeNm) {
+    type (ShowTypeNm)
+    min (Optional) max (One)
+  }
+}
