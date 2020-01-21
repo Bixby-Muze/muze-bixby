@@ -22,13 +22,15 @@ layout-macro-def (movie-summary){
           }
         }
         title-area {
-          slot1 {
-            text {
-              value ("#{value(movie.movieNm)}")
-              style (Detail_L)
+          slot2 {
+            single-line {
+              text {
+                value ("#{value(movie.movieNm)}")
+                style (Detail_L)
+              }
             }
           }
-          slot2 {
+          slot3 {
             single-line {
               text {
                 value ("#{value(movie.prdtYear)} · #{value(movie.nationAlt)}")
