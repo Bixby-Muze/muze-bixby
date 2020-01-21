@@ -1,0 +1,5 @@
+train (t-r5zxswcch11bgllajpfxaz7on) {
+  utterance ("[g:MovieList] (죽은)[v:MovieNm] 영화 보여줘")
+  plan (Y2BmkMiuLNbLLa1K1fPNL8tMLQ4uKSpNLiktSmUQQpXxySwuYRBAFfPLZWBiYARiBiDJyAACUD4A)
+  last-modified (1579595376075)
+}

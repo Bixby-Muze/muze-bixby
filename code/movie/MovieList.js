@@ -11,10 +11,10 @@ module.exports.function = function dailyBoxOffice () {
       'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJvb2V1bnoiLCJVU0VSTkFNRSI6Im9vZXVueiIsIkVNQUlMIjoieXVuczk5NEBnbWFpbC5jb20iLCJVU0VSX1JPTEUiOiJST0xFX1VTRVIifQ.Ibvyggk8HMcgY-hiChQNb5TzOGcKH8KKAJAgx-Fto7s'
     },
     query: {
-      openStartDt: '',
-      openEndDt: '',
+      openStartDt: '1985',
+      openEndDt: '2010',
       directorNm: '',
-      movieNm: '어벤져스',
+      movieNm: '죽은',
     }
   };
 
