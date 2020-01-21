@@ -135,4 +135,9 @@ structure (MoviesStructure) {
     min (Optional) max (One)
   }
 
+  property (DirectorNm) {
+    type (DirectorNm)
+    min (Optional) max (One)
+  }
+
 }
