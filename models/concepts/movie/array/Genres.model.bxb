@@ -1,0 +1,7 @@
+structure (Genres) {
+  description (__DESCRIPTION__)
+  property (genreNm) {
+    type (GenreNm)
+    min (Optional) max (One)
+  }
+}
