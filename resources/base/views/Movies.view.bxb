@@ -1,26 +1,24 @@
-result-view{
-  match: MoviesStructure (movies) {
-    from-output: DailyBoxOffice(action)
-  }
+result-view {
+  match: MoviesStructure(movies)
 
-  render{
-    if (size(movies) > 1){
+  render {
+    if (size(movies) > 1) {
       list-of (movies){
-        where-each (movie){
+        where-each (movie) {
           layout-macro (movie-summary) {
-            param (movie){
+            param (movie) {
               expression (movie)
             }
           }
         }
       }      
     }
-    else-if (size(movies) == 1){
-      layout-macro (movie-details){
-        param (movie){
+    else-if (size(movies) == 1) {
+      layout-macro (movie-details) {
+        param (movie) {
           expression (movies)
         }
-      }  
+      }
     }
   }
 }
