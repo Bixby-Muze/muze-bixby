@@ -145,6 +145,11 @@ structure (MoviesStructure) {
     min (Optional) max (One)
   }
 
+  property (genres) {
+    type (Genres)
+    min (Optional) max (Many)
+  }
+
   property (genreAlt) {
     type (GenreAlt)
     min (Optional) max (One)
