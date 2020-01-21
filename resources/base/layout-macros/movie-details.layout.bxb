@@ -25,7 +25,7 @@ layout-macro-def (movie-details) {
         single-line {
           text {
             value ("영화 정보")
-            style (Detail_L_Soft)
+            style (Detail_L)
           }
         }
         single-line {
@@ -56,7 +56,7 @@ layout-macro-def (movie-details) {
         single-line {
           text {
             value ("출연진 정보")
-            style (Detail_L_Soft)
+            style (Detail_L)
           }
         }
         
