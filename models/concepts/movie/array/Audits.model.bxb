@@ -1,0 +1,13 @@
+structure (Audits) {
+  description (__DESCRIPTION__)
+
+  property (auditNo) {
+    type (AuditNo)
+    min (Optional) max (One)
+  }
+
+  property (watchGradeNm) {
+    type (WatchGradeNm)
+    min (Optional) max (One)
+  }
+}

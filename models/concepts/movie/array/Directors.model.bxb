@@ -1,0 +1,12 @@
+structure (Directors) {
+  description (__DESCRIPTION__)
+  property (peopleNm) {
+    type (PeopleNm)
+    min (Optional) max (One)
+  }
+
+  property (peopleNmEn) {
+    type (PeopleNmEn)
+    min (Optional) max (One)
+  }
+}
