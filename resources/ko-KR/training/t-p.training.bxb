@@ -1,0 +1,5 @@
+train (t-prg50k5vggaaf9smtp69t6v20) {
+  utterance ("[g:MovieList] (어벤져스)[v:MovieNm] 영화 보여줘")
+  plan (Y2BmkMiuLNbLLa1K1fPNL8tMLQ4uKSpNLiktSmUQQpXxySwuYRBAFfPLZWBiYARiBiDJyAACUD4A)
+  last-modified (1579590877219)
+}
