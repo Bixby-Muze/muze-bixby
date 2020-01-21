@@ -1,11 +1,13 @@
 result-view{
-  match: MoviesStructure (movies)
+  match: MoviesStructure (movies) {
+    from-output: DailyBoxOffice(action)
+  }
 
   render{
     if (size(movies) > 1){
       list-of (movies){
         where-each (movie){
-          layout-macro (movie-summary){
+          layout-macro (movie-summary) {
             param (movie){
               expression (movie)
             }

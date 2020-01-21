@@ -1,6 +1,6 @@
 dialog (Result) {
   match: MoviesStructure(movies){
-    from-output: WeeklyBoxOffice(action)
+    from-output: DailyBoxOffice(action)
   }
   
   if(size(movies) > 1){

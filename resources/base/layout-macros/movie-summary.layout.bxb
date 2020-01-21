@@ -8,11 +8,29 @@ layout-macro-def (movie-summary){
   }
   
   content{
-    image {
-      url ("https://images.unsplash.com/photo-1579515272222-adffa97cb506?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80")
-      aspect-ratio (3:4)
-      object-fit (Cover)
-      object-position (Center)
+    compound-card {
+      content {
+        image-card {
+          aspect-ratio (3:4)
+          image-url ("https://cdn.shopify.com/s/files/1/0904/4536/products/white-lacquer-wood-sample-base-3.jpg")
+          title-area {
+            halign (Start)
+            slot1 {
+              text {
+                value ("#{value(movie.movieNm)}")
+                style (Title_XS)
+              }
+            }
+          }
+        }
+        paragraph {
+          value {
+            template ("#{value(movie.movieNm)}")
+          }
+          style (Detail_L)
+        }
+
+      }
     }
   }
 }
