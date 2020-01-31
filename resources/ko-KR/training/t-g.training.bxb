@@ -1,0 +1,5 @@
+train (t-g02zspc9tlbcortau0t1hosz8) {
+  utterance ("[g:MoviesStructure] 오늘의 (박스오피스)[r:DailyBoxOffice] 보여줘")
+  plan (Y2BikMiuLNbLLa1K1fPNL8tMLQ4uKSpNLiktSmUQh8u4JGbmVDrlV/inpWUmpzIwAiEDGDNBaAA=)
+  last-modified (1580496903149)
+}

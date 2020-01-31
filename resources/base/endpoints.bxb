@@ -1,6 +1,7 @@
 endpoints {
   action-endpoints {
     action-endpoint (MovieList) {
+      accepted-inputs (_movieNm, _directorNm, _openStartDt, _openEndDt)
       local-endpoint (movie/MovieList.js)
     }
 

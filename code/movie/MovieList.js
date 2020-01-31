@@ -3,7 +3,7 @@ var config = require('config');
 var console = require('console');
 var tool = require('lib/tool.js');
 
-module.exports.function = function dailyBoxOffice () {
+module.exports.function = function movieList (_movieNm, _directorNm, _openStartDt, _openEndDt) {
 
   var options = {
     format: 'json',

@@ -1,5 +1,5 @@
 train (t-0u588inx89n5m1wy6t487rp2e) {
-  utterance ("[g:MovieList] (1985)[v:OpenStartDt]년부터 (2010)[v:OpenEndDt]년까지 (죽은)[v:MovieNm] 이라는 키워드 들어간 영화 보여줘")
-  plan (Y2BlkMiuLNbLLa1K1fPNL8tMLQ4uKSpNLiktSmUQQpXxySwuYRBAFfPLRVLlX5Ca55qX4lLCIIIiFlySWFQCFGVhYGRgYmAG0gxAFgTCAJIcAA==)
-  last-modified (1579595504409)
+  utterance ("[g:MoviesStructure] (1985)[v:OpenStartDt]년부터 (2010)[v:OpenEndDt]년까지 (죽은)[v:MovieNm] 이라는 키워드 들어간 영화 보여줘")
+  plan (Y2BlkMiuLNbLLa1K1fPNL8tMLQ4uKSpNLiktSmUQQpXxySwuYRBAFfPLRVLlX5Ca55qX4lLCIIIiFlySWFQCFGVhYGRgYmAG0gxAFgTCAEgMKgcA)
+  last-modified (1580496610097)
 }
