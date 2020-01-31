@@ -5,16 +5,23 @@ var tool = require('lib/tool.js');
 
 module.exports.function = function movieList (_movieNm, _directorNm, _openStartDt, _openEndDt) {
 
+  // 파라미터가 넘어오지 않을 경우 undefined로 적용되게 때문에 undefined일 경우 빈공간으로 변환
+  if(_movieNm == undefined) _movieNm = "";
+  if(_directorNm == undefined) _directorNm = "";
+  if(_openStartDt == undefined) _openStartDt = "";
+  if(_openEndDt == undefined) _openEndDt = "";
+
   var options = {
     format: 'json',
     headers: {
       'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJvb2V1bnoiLCJVU0VSTkFNRSI6Im9vZXVueiIsIkVNQUlMIjoieXVuczk5NEBnbWFpbC5jb20iLCJVU0VSX1JPTEUiOiJST0xFX1VTRVIifQ.Ibvyggk8HMcgY-hiChQNb5TzOGcKH8KKAJAgx-Fto7s'
     },
     query: {
-      openStartDt: '1985',
-      openEndDt: '2010',
-      directorNm: '',
-      movieNm: '죽은',
+      // 모든 쿼리 required
+      openStartDt: _openStartDt,
+      openEndDt: _openEndDt,
+      directorNm: _directorNm,
+      movieNm: _movieNm,
     }
   };
 
