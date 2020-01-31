@@ -1,0 +1,5 @@
+train (t-drm0pirk36s716b919pu8fa1r) {
+  utterance ("[g:MoviesStructure] 영화 (어벤져스)[v:MovieNm] 찾아줘")
+  plan (Y2BmkMiuLNbLLa1K1fPNL8tMLQ4uKSpNLiktSmUQQpXxySwuYRBAFfPLZWBiYARiBiDJyAACTBAMAA==)
+  last-modified (1580499489404)
+}

@@ -1,0 +1,5 @@
+train (t-ngncayj6wegjtpwr9vqbufyhn) {
+  utterance ("[g:MoviesStructure] (1985)[v:OpenStartDt]년 부터 (2010)[v:OpenEndDt]년까지 영화 보여줘")
+  plan (Y2BhkMiuLNbLLa1K1fPNL8tMLQ4uKSpNLiktSmUQQpXxySwuQRLzL0jNc81LcSlhEEERCy5JLCoBijIzMDIwAUkGIA2CEADig0UB)
+  last-modified (1580498932714)
+}
