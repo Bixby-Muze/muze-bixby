@@ -10,6 +10,7 @@ endpoints {
     }
 
     action-endpoint (PeopleList) {
+      accepted-inputs (_peopleNm, _filmoNames)
       local-endpoint (movie/PeopleList.js)
     }
 

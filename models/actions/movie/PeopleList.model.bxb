@@ -1,10 +1,15 @@
 action (PeopleList) {
   description (__DESCRIPTION__)
   collect {
-    input (aud) {
-      type (AudiAcc)
+    input (_peopleNm) {
+      type (PeopleNm)
+      min (Optional) max (One)
+    }
+
+    input (_filmoNames) {
+      type (FilmoNames)
       min (Optional) max (One)
     }
   }
-  output (PeopleListStructure)
+  output (PeoplesStructure)
 }
