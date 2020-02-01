@@ -1,0 +1,17 @@
+result-view {
+  match: PeoplesStructure(peoples)
+
+  render {
+    // if (size(peoples) > 1) {
+      list-of (peoples){
+        where-each (people) {
+          layout-macro (people-summary) {
+            param (people) {
+              expression (people)
+            }
+          }
+        }
+      }      
+    // }
+  }
+}

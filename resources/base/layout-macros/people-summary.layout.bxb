@@ -1,0 +1,75 @@
+layout-macro-def (people-summary){
+  params{
+    param (people){
+      type (PeoplesStructure)
+      min (Required)
+      max (One)
+    }
+  }
+  
+  content{
+    compound-card {
+      content {
+        title-card {
+          title-area {
+            slot1 {
+              text {
+                value {
+                  if (empty(people.peopleNmEn)) {
+                    template ("#{value(people.peopleNm)}")
+                  }else {
+                    template ("#{value(people.peopleNm)} |  #{value(people.peopleNmEn)}")
+                  }
+                }
+              }
+            }
+            slot2 {
+              paragraph {
+                  value {
+                      template ("#{value(people.repRoleNm)}")
+                  }
+              }
+            }
+          }
+        }
+        paragraph {
+          value {
+            template ("#{value(people.filmoNames)}")
+          }
+        }
+        
+        // title-card {
+        //   title-area {
+        //     halign (Start)
+        //     slot1 {
+        //       text {
+        //           value {
+        //               template ("#{value(people.peopleNm)}")
+        //           }
+        //       }
+        //     }
+        //     slot2 {
+        //       paragraph {
+        //           value {
+        //               template ("#{value(people.peopleNmEn)}")
+        //           }
+        //       }
+        //     }
+        //     slot3 {
+        //       paragraph {
+        //           value {
+        //               template ("#{value(people.repRoleNm)}")
+        //           }
+        //       }
+        //     }
+        //   }
+        // }
+        // paragraph {
+        //     value {
+        //         template ("#{value(people.filmoNames)}")
+        //     }
+        //   }
+      }
+    }
+  }
+}
