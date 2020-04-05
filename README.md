@@ -1,1 +1,1 @@
-# Bixby Muze
+# Muze
